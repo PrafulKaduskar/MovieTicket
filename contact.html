@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+</link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</head>
+<style>
+body{
+background:#221e1e;
+}
+.thumbnail{
+padding:0px;
+}
+container-fluid,.bg-1{
+background:#222;
+color:#fff;
+}
+
+.footer{
+position:fixed;
+text-align:center;
+}
+
+.jumbotron {
+background: #000;
+color: #FFF;
+border-radius: 0px;
+margin-top:70px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+#form2{
+color:#fff;
+}
+.well-sm{
+margin-top:100px;
+}
+#add{
+margin-top:140px;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navlink">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+<a class="navbar-brand" href="home.html"><strong>MovieBuzz</strong></a>
+</div>
+<div class="collapse navbar-collapse" id="navlink">
+<ul class="nav navbar-nav">
+<li ><a href="home.html">Home</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="movie.html">Movies<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="b1.html">Bollywood</a></li>
+<li><a href="h1.html">Hollywood</a></li>
+<li><a href="o1.html">Others</a></li>
+</ul>
+</li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<form class="navbar-form navbar-left">
+<div class="input-group">
+<input type="text" class="form-control" placeholder="Search">
+<div class="input-group-btn">
+<button class="btn btn-default" type="submit">
+<span class="glyphicon glyphicon-search"></span>
+</button>
+</div>
+</div>
+</form>
+
+<ul class="nav navbar-nav navbar-right">
+<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+</ul>
+</div>
+</div>
+  
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<div class="well well-sm">
+<form>
+<div class="row">
+<div class="col-md-6">
+<div class="form-group">
+<label for="name">
+Name</label>
+<input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+</div>
+<div class="form-group">
+<label for="email">
+Email Address</label>
+<div class="input-group">
+<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+</span>
+<input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+</div>
+<div class="form-group">
+<label for="subject">
+Subject</label>
+<select id="subject" name="subject" class="form-control" required="required">
+<option value="na" selected="">Choose One:</option>
+<option value="service">General Customer Service</option>
+<option value="suggestions">Suggestions</option>
+<option value="product">Product Support</option>
+</select>
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group">
+<label for="name">
+Message</label>
+<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+</div>
+</div>
+<div class="col-md-12">
+<button type="submit" class="btn btn-primary pull-right" id="send">
+Send Message</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="col-md-4" id="add">
+<form id="form2">
+<legend style="color:#fff;"><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+<address>
+<strong>RSCOE Tathawade</strong><br>
+Jspm <br>
+Tathawade,Pune 411033<br>
+<abbr title="Phone">
+Phone</abbr>
+(+91)8956261099</address>
+ <address>
+<strong>Praful Kaduskar</strong><br>
+<a href="#">Prafulkaduskar29@gmail.com</a>
+</address>
+</form>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d120969.76120930274!2d73.6744486380568!3d18.650302855434873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stheaters+in+pune!5e0!3m2!1sen!2sin!4v1512639011238"
+ width="100%" height="450px" frameborder="0"  allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+<div class="container-fluid bg-1" style="margin-top:135px">
+
+<hr>
+<footer style="position:bottom;">
+<div class="row">
+<div class="col-lg-12">
+<p>Copyright &copy; Praful Kaduskar</p>
+</div>
+</div>
+</footer>
+</div>
+
+</body>
+</html>

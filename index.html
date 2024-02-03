@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+</link>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</head>
+<style>
+body{
+margin:0;
+padding:0;
+}
+#box1{
+height:100vh;
+width:100%;
+margin-top:0px;
+background:url(../Bootstrap/image/bg.jpg);
+background-size:cover;
+display:table;
+background-attachment:fixed;
+}
+
+.container{
+margin-top:0px;
+font-family:gabriola;
+margin-top:50px;
+}
+h1{
+margin-top:200px;
+font-size:100px;
+color:#222222;
+text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 100px #ff0909;
+}
+h2{
+color:#222222;
+font-size:70px;
+text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 100px #ff0909;
+}
+.btn-lg{
+font-size:30px;
+color:#ca3f3f;
+margin-left:90px;
+background-color: #222222;
+box-shadow: 1px 1px 2px black, 0 0 60px red, 0 0 30px #ff0909;
+}
+a{color:#ca3f3f;}
+container-fluid,.bg-1{
+background:#222;
+margin-top:160px;
+color:#fff;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navlink">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+<a class="navbar-brand" href="home.html"><strong>MovieBuzz</strong></a>
+</div>
+<div class="collapse navbar-collapse" id="navlink">
+<ul class="nav navbar-nav">
+<li ><a href="home.html">Home</a></li>
+<li class="dropdown">
+<a  href="movie.html">Movies</a>
+
+</li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<form class="navbar-form navbar-left">
+<div class="input-group">
+<input type="text" class="form-control" placeholder="Search">
+<div class="input-group-btn">
+<button class="btn btn-default" type="submit">
+<span class="glyphicon glyphicon-search"></span>
+</button>
+</div>
+</div>
+</form>
+
+<ul class="nav navbar-nav navbar-right">
+<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+</ul>
+</div>
+</div>
+  
+</nav>
+<div id="box1">
+<div class="container">
+<div class="row">
+<div class="col-lg-offset-8">
+<h1>MovieBuzz</h1>
+<h2>World of Movies</h2>
+<button type="button" class="btn btn-danger btn-lg"><a href="movie.html">Explore !</a></button>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

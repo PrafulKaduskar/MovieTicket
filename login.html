@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+</link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</head>
+<style>
+body{
+margin:0;
+width:100%;
+padding:0;
+}
+#lbox{
+height:90vh;
+width:100%;
+margin-top:0px;
+background:url(../Bootstrap/image/bg4.jpg);
+background-size:cover;
+display:table;
+background-attachment:fixed;
+}
+
+container-fluid,.bg-1{
+background:#222;
+color:#fff;
+}
+
+.page-header{
+color:#fff;
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+.footer{
+position:fixed;
+text-align:center;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navlink">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>                        
+</button>
+<a class="navbar-brand" href="landing.html">MovieBuzz</a>
+</div>
+<div class="collapse navbar-collapse" id="navlink">
+<ul class="nav navbar-nav">
+<li ><a href="home.html">Home</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="movie.html">Movies<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="b1.html">Bollywood</a></li>
+<li><a href="h1.html">Hollywood</a></li>
+<li><a href="o1.html">Others</a></li>
+</ul>
+</li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<form class="navbar-form navbar-left">
+<div class="input-group">
+<input type="text" class="form-control" placeholder="Search">
+<div class="input-group-btn">
+<button class="btn btn-default" type="submit">
+<span class="glyphicon glyphicon-search"></span>
+</button>
+</div>
+</div>
+</form>
+
+<ul class="nav navbar-nav navbar-right">
+<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+</ul>
+</div>
+</div>
+  
+</nav>
+<div id="lbox">
+<div class="wrapper">
+<div class="row">
+<div class="col-md-5" style="top:40px; left:5px;">
+<form class="form-signin">
+<h3 class="form-signin-head">Premium Account</h3>
+<button class="btn btn-lg btn-primary btn-block" type="submit"style="margin-left:4px;">Premium Subscription</button>
+<br>
+<h4 style="text-align:center;">Login</h4>
+<input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" /><br>
+<input type="password" class="form-control" name="password" placeholder="Password" required=""/>      <br>
+<input type="otp" class="form-control" name="otp" placeholder="Enter OTP" required=""/><br>      
+<label class="checkbox" style="margin-left:20px;">
+<input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe">Remember me
+<p>New member?<a href="signup.html">Sign Up</a></p>
+</label>
+<button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid bg-1">
+
+<hr>
+<footer style="position:bottom;">
+<div class="row">
+<div class="col-lg-12">
+<p>Copyright &copy; Praful Kaduskar 2024</p>
+</div>
+</div>
+</footer>
+</div>
+
+</body>
+</html>
